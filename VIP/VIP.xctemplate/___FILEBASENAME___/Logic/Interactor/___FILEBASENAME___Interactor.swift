@@ -10,6 +10,8 @@ import Foundation
 
 final class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_moduleName___DataStore {
     
+    var presenter: ___VARIABLE_moduleName___PresentationLogic?
+    
     deinit {
         print("___FILEBASENAMEASIDENTIFIER___ deinit...")
     }

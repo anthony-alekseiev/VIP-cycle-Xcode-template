@@ -10,6 +10,8 @@ import Foundation
 
 protocol ___VARIABLE_moduleName___BusinessLogic {
     
+    var presenter: ___VARIABLE_moduleName___PresentationLogic? {get set}
+    
 }
 
 protocol ___VARIABLE_moduleName___DataStore {
