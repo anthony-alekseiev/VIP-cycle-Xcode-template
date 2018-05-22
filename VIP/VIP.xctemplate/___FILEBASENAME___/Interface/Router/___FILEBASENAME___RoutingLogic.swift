@@ -13,7 +13,7 @@ protocol ___VARIABLE_moduleName___RoutingLogic {
 }
 
 protocol ___VARIABLE_moduleName___DataPassing {
-    var dataStore: ___VARIABLE_moduleName___DataStore? { get }
+    var dataStore: ___VARIABLE_moduleName___DataStore? { get set }
 }
 
 
